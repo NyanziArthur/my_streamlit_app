@@ -3,7 +3,7 @@ from joblib import load
 import numpy as np
 
 # Load the model
-rf_best = load('D:\GITHUB\my_streamlit_app\rf_best_model.joblib')
+rf_best = load('D:/GITHUB/my_streamlit_app/rf_best_model.joblib')
 
 st.title("My ML Model Prediction")
 
