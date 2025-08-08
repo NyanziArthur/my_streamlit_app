@@ -3,7 +3,7 @@ from joblib import load
 import numpy as np
 
 # Load the model
-rf_best = load('rf_best.joblib')
+rf_best = load('rf_best_model.joblib')
 
 st.title("My ML Model Prediction")
 
